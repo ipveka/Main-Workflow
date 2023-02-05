@@ -1,13 +1,9 @@
 
 # Auxiliar
 
-# Set WD
-
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
 # Read Secrets
 
-yaml <- read_yaml("../secrets/secrets.yaml")
+yaml <- yaml::read_yaml("secrets/secrets.yaml")
 
 endpoint <- yaml$endpoint
 port <- yaml$port
