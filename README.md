@@ -1,4 +1,4 @@
 
 # Main-Workflow
 
-Template for projects in R
+Workflow for Data Science projects
