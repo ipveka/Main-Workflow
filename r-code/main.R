@@ -3,19 +3,21 @@
 
 # Packages: Packages for the project
 
-source("r-code/auxiliar/packages.R")
+# Requires: Java (Latest version available)
+
+source("r-code/auxiliar/1_packages.R")
 
 # Auxiliar: Working directory and Secrets
 
-source("r-code/auxiliar/auxiliar.R")
+source("r-code/auxiliar/2_auxiliar.R")
 
 # Connections: To connect to dB
 
-source("auxiliar/connections.R")
+source("auxiliar/3_connections.R")
 
 # Functions: Functions for the project
 
-source("auxiliar/functions.R")
+source("auxiliar/4_functions.R")
 
 # Run
 
