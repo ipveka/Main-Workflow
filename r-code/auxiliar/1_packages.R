@@ -1,8 +1,6 @@
 
 # Packages
 
-# Version: R version 4.2.2 (2022-10-31) -- "Innocent and Trusting"
-
 if (!require("pacman")) install.packages("pacman")
 
 # Install packages
