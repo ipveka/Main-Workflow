@@ -21,8 +21,8 @@ source("r-code/auxiliar/4_functions.R")
 
 # Run
 
-source("run/1_get_data.R")
-source("run/2_calculate.R")
-source("run/3_export.R")
+source("r-code/run/1_get_data.R")
+source("r-code/run/2_calculate.R")
+source("r-code/run/3_export.R")
 
 #---
